@@ -429,6 +429,11 @@ img {
   background-clip: text;
 }
 
+/* Gradient text utilities */
+.grad-warm { background: var(--gradient-warm); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.grad-cool { background: var(--gradient-cool); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+.grad-mid  { background: var(--gradient-mid);  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+
 .hero__subtitle {
   font-size: clamp(1.05rem, 2vw, 1.25rem);
   color: var(--text-secondary);
@@ -1493,7 +1498,7 @@ img {
   <!-- What We Do -->
   <section class="section section--alt" id="what-we-do">
     <div class="container">
-      <h2 class="section__title reveal">What We Do</h2>
+      <h2 class="section__title reveal">What We <span class="grad-cool">Do</span></h2>
       <p class="section__subtitle reveal">We help climate companies turn early interest into lasting customer engagement.</p>
       <div class="expertise__grid">
         <div class="expertise__card reveal" style="--accent: var(--teal);">
@@ -1552,7 +1557,7 @@ img {
   <!-- Sound Familiar -->
   <section class="section" id="challenges">
     <div class="container">
-      <h2 class="section__title reveal">Sound Familiar?</h2>
+      <h2 class="section__title reveal">Sound <span class="grad-warm">Familiar?</span></h2>
       <p class="section__subtitle reveal">Signs it might be time to talk</p>
       <div class="challenges__grid">
         <div class="challenges__item reveal" style="--item-color: var(--coral);">
@@ -1580,7 +1585,7 @@ img {
   <!-- Services -->
   <section class="section section--alt" id="services">
     <div class="container">
-      <h2 class="section__title reveal">How We Help</h2>
+      <h2 class="section__title reveal">How We <span class="grad-mid">Help</span></h2>
       <p class="section__subtitle reveal">We partner with climate companies at every stage of growth</p>
       <div class="services__grid">
         <div class="services__pillar reveal" style="--pillar-gradient: var(--gradient-warm);">
@@ -1641,7 +1646,7 @@ img {
     <div class="container">
       <p class="jumpstart__eyebrow reveal">Brand Jumpstart</p>
       <h2 class="section__title reveal">Your complete brand foundation.<br><span class="jumpstart__accent">Four weeks. $3,000.</span></h2>
-      <p class="section__subtitle reveal" style="max-width: 640px;">Expert strategy and AI-powered delivery working together&mdash;so you get the quality of a premium engagement at a price that makes sense before Series A.</p>
+      <p class="section__subtitle reveal" style="max-width: 640px;">Led by a design &amp; brand expert with 20+ years of experience, accelerated by AI&mdash;so you get the quality of a premium engagement at a price that makes sense before Series A. Carbon-negative by design.</p>
 
       <div class="jumpstart__stats reveal">
         <div class="jumpstart__stat">
@@ -1662,34 +1667,34 @@ img {
         <h3 class="jumpstart__del-heading">Everything you need to launch with confidence</h3>
         <div class="jumpstart__del-grid">
           <div class="jumpstart__del-card" style="--del-color: var(--pink);">
-            <h4>Brand Strategy</h4>
-            <p>Positioning, messaging, and voice&mdash;built around how your audience actually makes decisions.</p>
+            <h4>Brand Blueprint</h4>
+            <p>Positioning, messaging, voice and tone, and storytelling framework&mdash;your complete strategic foundation.</p>
           </div>
           <div class="jumpstart__del-card" style="--del-color: var(--coral);">
-            <h4>Logo &amp; Visual Identity</h4>
-            <p>A complete visual system that reflects your mission and builds instant credibility.</p>
+            <h4>Logo</h4>
+            <p>Professional logo files in multiple lockups and formats, ready for website, deck, social, and print.</p>
           </div>
           <div class="jumpstart__del-card" style="--del-color: var(--orange);">
             <h4>Website Landing Page</h4>
-            <p>A designed, coded landing page that tells your story and converts visitors into action.</p>
+            <p>A fully coded HTML landing page&mdash;or platform-ready version&mdash;built on your new brand and messaging.</p>
           </div>
           <div class="jumpstart__del-card" style="--del-color: var(--yellow);">
-            <h4>Pitch Deck</h4>
-            <p>A polished intro deck for investors, partners, and customers&mdash;ready to present.</p>
+            <h4>Intro Deck</h4>
+            <p>A complete presentation built around your value prop, the questions people actually ask, and a clear next step.</p>
           </div>
           <div class="jumpstart__del-card" style="--del-color: var(--green);">
-            <h4>Brand Guidelines</h4>
-            <p>A reference your team can use to keep every touchpoint consistent as you grow.</p>
+            <h4>Brand One-Pager</h4>
+            <p>A polished overview ready to share at events, in follow-up emails, or with anyone who wants a quick look at what you do.</p>
           </div>
           <div class="jumpstart__del-card" style="--del-color: var(--teal);">
-            <h4>Marketing Collateral</h4>
-            <p>Core materials to support outreach, partnerships, and early go-to-market.</p>
+            <h4>Digital Business Cards</h4>
+            <p>Branded digital cards you can share instantly&mdash;because your brand should show up everywhere you do.</p>
           </div>
         </div>
       </div>
 
       <div class="jumpstart__cta reveal">
-        <p class="jumpstart__cta-note">Getting in early has real advantages. First founders receive a level of expert attention on every deliverable that reflects where we are: building something carefully and committed to getting it right.</p>
+        <p class="jumpstart__cta-note">Early-access founders get a free month of our AI-Powered Design Partnership after their Jumpstart wraps&mdash;ongoing design support to keep the momentum going as you launch. Limited spots available.</p>
         <div class="jumpstart__cta-actions">
           <a href="https://brandjumpstart.thrivekite.com/" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Full details &rarr;</a>
           <a href="brand-jumpstart.html" class="jumpstart__detail-link"> </a>
@@ -1701,7 +1706,7 @@ img {
   <!-- How We Work -->
   <section class="section" id="how-we-work">
     <div class="container">
-      <h2 class="section__title reveal">How We Work</h2>
+      <h2 class="section__title reveal">How We <span class="grad-cool">Work</span></h2>
       <div class="process__content reveal">
         <p class="process__lead">We start with diagnosis, then work together on what matters most.</p>
         <p class="process__body">Every engagement begins with understanding&mdash;where does participation break down? What's holding you back? We run a targeted diagnostic to identify the highest-impact opportunities, whether that's a friction audit, customer research, or a focused sprint on an immediate trouble area.</p>
@@ -1730,7 +1735,7 @@ img {
   <!-- Why ThriveKite -->
   <section class="section section--alt" id="why">
     <div class="container">
-      <h2 class="section__title reveal">Why ThriveKite</h2>
+      <h2 class="section__title reveal">Why <span class="grad-warm">ThriveKite</span></h2>
       <div class="why__grid">
         <div class="why__content reveal">
           <p class="why__lead">We're not vendors. We're design partners who co-create with your team to drive real behavior change&mdash;ethically, effectively, and with your mission at the center.</p>
@@ -1764,7 +1769,7 @@ img {
   <!-- Contact CTA -->
   <section class="section contact" id="contact">
     <div class="container contact__inner">
-      <h2 class="section__title reveal">Let's Build Something That Matters</h2>
+      <h2 class="section__title reveal">Let's Build Something That <span class="grad-mid">Matters</span></h2>
       <p class="section__subtitle reveal">Whether you're early stage and need brand foundations, or you have active users and need to fix adoption&mdash;let's start with a conversation about where you are and what's possible.</p>
       <a href="https://calendar.google.com/appointments/schedules/AcZssZ3dzje9ecoeozwvb1lzj7MsO8r0ClYh3qnKPB01NtMeYeFHupDPGCDDSBCh2vUR_3V79CE4lU7I" target="_blank" rel="noopener" class="btn btn--primary btn--lg reveal">Book a Conversation</a>
       <p class="contact__note reveal">Or find us on <a href="https://www.linkedin.com/company/thrivekite/" target="_blank" rel="noopener">LinkedIn</a></p>
