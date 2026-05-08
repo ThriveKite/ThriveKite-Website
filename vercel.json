@@ -18,6 +18,22 @@
       "destination": "https://lookout-rho.vercel.app/lookout/:path+"
     },
     {
+      "source": "/fieldnotes",
+      "destination": "https://fieldnotes-gray.vercel.app/fieldnotes"
+    },
+    {
+      "source": "/fieldnotes/",
+      "destination": "https://fieldnotes-gray.vercel.app/fieldnotes"
+    },
+    {
+      "source": "/fieldnotes/:path+",
+      "destination": "https://fieldnotes-gray.vercel.app/fieldnotes/:path+"
+    },
+    {
+      "source": "/fieldnotes/:path+/",
+      "destination": "https://fieldnotes-gray.vercel.app/fieldnotes/:path+"
+    },
+    {
       "source": "/library",
       "destination": "https://behavior-design-library.vercel.app/library"
     },
